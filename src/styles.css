@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conatiner {
+  display: flex;
+  width: 204px;
+  flex-wrap: wrap;
+  border: 3px solid lightgray;
+}
+
+.conatiner-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin: 4px;
+  background-color: lightgray;
+}
+
+.reset-button {
+  margin: 10px;
+  width: 100px;
+  height: 30px;
+  background-color: aqua;
+  text-align: center;
+}
+
+.instruction {
+  margin: 5px;
+}
